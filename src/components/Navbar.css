@@ -1,6 +1,6 @@
 .navbar {
     background-color: white;
-    border-bottom : 1px black solid;
+    height: 100px;
 }
 .navbar--sticky {
     position: sticky;
@@ -8,17 +8,17 @@
     animation-name: slide-in;
     animation-duration: .6s;
 }
-@keyframes slide-in {
+/* @keyframes slide-in {
     0% {
         transform: TranslateY(-100%);
     }
     100% {
         transform: TransLateY(0%);
     }
-}
+} */
 .navbar__wrapper {
     overflow-y: hidden;
-    height: 80px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,8 +39,9 @@
 .navbar__links {
     flex: 0.6;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-around; */
     align-items: center;
+    margin: 0 20px;
 }
 .navbar__links a {
     display: block;

@@ -22,12 +22,6 @@ export default function Navbar() {
             <NavLink to="/" exact>
               <li className="navbar__link">Get In Touch</li>
             </NavLink>
-            <Link to="/" exact>
-              <li className="navbar__link--login">Login</li>
-            </Link>
-            <Link to="/" exact>
-              <li className="navbar__link--signup">Sign Up</li>
-            </Link>
           </ul>
           {/* {sidebar ? (
             <CgClose
